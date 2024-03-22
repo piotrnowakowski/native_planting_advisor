@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native Plant Garden Advisor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="{{ url_for('static', filename='img/garden_header.jpg') }}" alt="Garden" class="header-image">
+            <h1>Grow with Nature</h1>
+            <p>Join us in cultivating biodiversity through native gardens.</p>
+        </header>
+        <main>
+            <section class="introduction">
+                <p>
+                    Embark on a journey to harmonize your garden with your local ecosystem.
+                    Discover native plants that enrich your garden, supporting the flora and fauna that thrive in your area.
+                </p>
+            </section>
+            <section class="get-started">
+                <a href="/garden-form" class="start-button">Begin Your Garden Journey</a>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

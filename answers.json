@@ -1,0 +1,10 @@
+{
+    "location": "CA",
+    "gardenSize": "large",
+    "existingPlants": [
+        "meee"
+    ],
+    "shade": "sunny",
+    "soilType": "sandy",
+    "water": "smallNatural"
+}

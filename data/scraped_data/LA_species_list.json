@@ -1,0 +1,1202 @@
+[
+    {
+        "Scientific Name": "Scientific Name",
+        "Common Name": "Common Name",
+        "Duration": "Duration",
+        "Habit": "Habit",
+        "Sun": "Sun",
+        "Water": "Water"
+    },
+    {
+        "Scientific Name": "Acer negundo",
+        "Common Name": "Box Elder, Box Elder Maple, Ash-leaved Maple, Ashleaf Maple, Red River Maple, Fresno De Guajuco",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Acer rubrum var. drummondii",
+        "Common Name": "Drummond's Maple, Drummond Red Maple, Swamp Maple",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Wet, Moist"
+    },
+    {
+        "Scientific Name": "Achillea millefolium",
+        "Common Name": "Common Yarrow, Western Yarrow, Yarrow, Milfoil",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Aesculus pavia",
+        "Common Name": "Red Buckeye, Scarlet Buckeye , Firecracker Plant",
+        "Duration": "Perennial",
+        "Habit": "Shrub, Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Amelanchier arborea",
+        "Common Name": "Common Serviceberry, Downy Serviceberry, Shadbush, Juneberry, Junebush, Shadblow, Sarvis",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Amorpha fruticosa",
+        "Common Name": "Indigo Bush, False Indigo Bush, False Indigo, Desert False Indigo",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Amsonia tabernaemontana",
+        "Common Name": "Eastern Bluestar, Blue Dogbane, Willow Amsonia, Woodland Bluestar",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Andropogon gerardii",
+        "Common Name": "Big Bluestem, Tall Bluestem, Turkeyfoot",
+        "Duration": "Perennial",
+        "Habit": "Grass/Grass-like",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Aralia spinosa",
+        "Common Name": "Devil's Walking Stick, Hercules Club, Angelica Tree, Pigeon Tree, Shotbush, Prickly Elder, Prickly Ash",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Aronia arbutifolia",
+        "Common Name": "Red Chokeberry, Red Chokecherry",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Sun",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Asclepias lanceolata",
+        "Common Name": "Fewflower Milkweed, Few-flower Milkweed, Red Milkweed",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Asclepias tuberosa",
+        "Common Name": "Butterflyweed, Butterfly Weed, Butterfly Milkweed, Orange Milkweed, Pleurisy Root, Chigger Flower, Chiggerweed",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Asimina parviflora",
+        "Common Name": "Smallflower Pawpaw, Small-flower Pawpaw, Dwarf Pawpaw",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": ""
+    },
+    {
+        "Scientific Name": "Asimina triloba",
+        "Common Name": "Pawpaw, Common Pawpaw, Custard Apple, Indian Banana, Wild Banana",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Asplenium platyneuron",
+        "Common Name": "Ebony Spleenwort",
+        "Duration": "Perennial",
+        "Habit": "Fern",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Athyrium filix-femina",
+        "Common Name": "Common Lady Fern, Subarctic Lady Fern, Lady Fern, Ladyfern",
+        "Duration": "Perennial",
+        "Habit": "Herb, Fern",
+        "Sun": "Shade, Part-shade",
+        "Water": "Wet, Moist"
+    },
+    {
+        "Scientific Name": "Betula nigra",
+        "Common Name": "River Birch, Red Birch, Black Birch, Water Birch",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Bignonia capreolata",
+        "Common Name": "Crossvine",
+        "Duration": "Perennial",
+        "Habit": "Vine",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Bouteloua curtipendula",
+        "Common Name": "Sideoats Grama, Banderilla, Banderita, Navajita",
+        "Duration": "Perennial",
+        "Habit": "Grass/Grass-like",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Callicarpa americana",
+        "Common Name": "American Beautyberry , French Mulberry",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Callirhoe papaver",
+        "Common Name": "Woodland Poppymallow, Woodland Poppy-mallow, Woodland Poppy Mallow",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "",
+        "Water": ""
+    },
+    {
+        "Scientific Name": "Calycanthus floridus",
+        "Common Name": "Eastern Sweetshrub, Carolina Allspice, Sweet Shrub",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Campsis radicans",
+        "Common Name": "Trumpet Creeper, Trumpet Vine, Common Trumpet Creeper, Cow Vine, Foxglove Vine, Hellvine, Devil's Shoestring",
+        "Duration": "Perennial",
+        "Habit": "Vine",
+        "Sun": "Sun",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Carpinus caroliniana",
+        "Common Name": "American Hornbeam, Blue Beech, Water Beech, Musclewood, Ironwood",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Carya glabra",
+        "Common Name": "Pignut Hickory, Sweet Pignut Hickory, Coast Pignut Hickory, Pignut, Sweet Pignut, Smoothbark Hickory, Broom Hickory, Red Hickory, Swamp Hickory, Switch Hickory, Switchbud Hickory",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Carya illinoinensis",
+        "Common Name": "Pecan",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Catalpa speciosa",
+        "Common Name": "Northern Catalpa, Catalpa Tree, Cigar Tree, Indian Bean",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Cercis canadensis",
+        "Common Name": "Eastern Redbud, Redbud",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Chasmanthium latifolium",
+        "Common Name": "Inland Sea Oats, Indian Wood Oats, Wild Oats, River Oats, Flathead Oats, Upland Oats, Upland Sea Oats",
+        "Duration": "Perennial",
+        "Habit": "Grass/Grass-like",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Chionanthus virginicus",
+        "Common Name": "White Fringetree, Fringe Tree, Snowflower Tree, Flowering Ash, Old Man's Beard, Grandfather Graybeard, Grancy Graybeard",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Cliftonia monophylla",
+        "Common Name": "Buckwheat Tree, Buckwheat Bush",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Sun",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Conoclinium coelestinum",
+        "Common Name": "Blue Mistflower, Wild Ageratum, Blue Boneset",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Cooperia drummondii",
+        "Common Name": "Evening Rain Lily, Evening Star Rain Lily",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Coreopsis lanceolata",
+        "Common Name": "Lanceleaf Coreopsis, Lance-leaved Coreopsis, Lanceleaf Tickseed, Sand Coreopsis",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Coreopsis tinctoria",
+        "Common Name": "Plains Coreopsis, Golden Tickseed, Goldenwave, Calliopsis",
+        "Duration": "Annual",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Cornus drummondii",
+        "Common Name": "Roughleaf Dogwood, Drummond's Dogwood, Rough-leaf Dogwood",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Cornus florida",
+        "Common Name": "Flowering Dogwood, Virginia Dogwood, Florida Dogwood, White Cornel, Arrowwood, American Boxwood, False Box, St. Peter's Crown, Corona De San Pedro",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Crataegus opaca",
+        "Common Name": "Mayhaw, Western Mayhaw, May Hawthorn, Riverflat Hawthorn, Applehaw, May Haw",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Cyrilla racemiflora",
+        "Common Name": "Titi, Swamp Titi, Black Titi, White Titi, Red Titi, Leatherwood, Swamp Cyrilla, American Cyrilla, Burnwood Bark, Palo Colorado",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Delphinium carolinianum",
+        "Common Name": "Prairie Larkspur, Carolina Larkspur, Blue Larkspur",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Diospyros virginiana",
+        "Common Name": "Common Persimmon, Eastern Persimmon, Possumwood, Date Plum, Winter Plum, Jove's Fruit",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Dracopis amplexicaulis",
+        "Common Name": "Clasping Coneflower, Clasping-leaf Coneflower",
+        "Duration": "Annual",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Echinacea pallida",
+        "Common Name": "Pale Purple Coneflower, Pale Coneflower",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Echinacea purpurea",
+        "Common Name": "Eastern Purple Coneflower, Purple Coneflower",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Eutrochium fistulosum",
+        "Common Name": "Joe-pye Weed, Trumpetweed, Queen Of The Meadow, Hollow Joe-pye Weed",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Fagus grandifolia",
+        "Common Name": "American Beech, White Beech, Red Beech, Ridge Beech, Beechnut Tree",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Forestiera acuminata",
+        "Common Name": "Eastern Swamp Privet, Swamp Privet, Texas Privet",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Fothergilla major",
+        "Common Name": "Mountain Witchalder, Mountain Witch-alder, Large Fothergilla",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Frangula caroliniana",
+        "Common Name": "Carolina Buckthorn, Carolina False Buckthorn, Yellow Buckthorn, Indian Cherry, Yellowwood",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Fraxinus pennsylvanica",
+        "Common Name": "Green Ash, Red Ash, Swamp Ash, River Ash, Water Ash, Darlington Ash",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Wet, Moist, Dry"
+    },
+    {
+        "Scientific Name": "Gaillardia pulchella",
+        "Common Name": "Indian Blanket, Firewheel, Girasol Rojo",
+        "Duration": "Annual",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Gaylussacia dumosa",
+        "Common Name": "Dwarf Huckleberry",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": ""
+    },
+    {
+        "Scientific Name": "Gelsemium sempervirens",
+        "Common Name": "Carolina Jessamine, Yellow Jessamine, Evening Trumpetflower, Poor Man's Rope",
+        "Duration": "Perennial",
+        "Habit": "Vine",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Gentiana saponaria",
+        "Common Name": "Harvestbells, Soapwort Gentian",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": ""
+    },
+    {
+        "Scientific Name": "Glandularia canadensis",
+        "Common Name": "Rose Vervain, Sweet William, Rose Mock Vervain",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Gleditsia triacanthos",
+        "Common Name": "Honey Locust, Common Honey Locust, Thorny Common Honey Locust, Honey Shucks Locust, Sweet Locust, Thorny Locust, Honey Shucks, Sweet Bean Tree",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Gordonia lasianthus",
+        "Common Name": "Gordonia, Loblolly Bay",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Sun",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Habranthus tubispathus",
+        "Common Name": "Rio Grande Copperlily, Copper Lily, Rio Grande Copper-lily",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Halesia diptera",
+        "Common Name": "Two-wing Silverbell, Two-winged Silverbell, Silverbell, American Snowdrop Tree, Snowdrop Tree, Snowbell, Cowlicks",
+        "Duration": "Perennial",
+        "Habit": "Shrub, Tree",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Hamamelis virginiana",
+        "Common Name": "Witch-hazel, American Witch-hazel, Common Witch-hazel, Winterbloom, Snapping Hazelnut, Striped Alder, Spotted Alder, Tobacco-wood, Water-witch",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Helianthus angustifolius",
+        "Common Name": "Swamp Sunflower, Narrowleaf Sunflower, Narrow-leaved Sunflower",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Hibiscus coccineus",
+        "Common Name": "Scarlet Rosemallow, Crimson Rosemallow, Wild Red Mallow, Texas Star Hibiscus",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Hibiscus laevis",
+        "Common Name": "Halberdleaf Rosemallow, Halberdleaf Hibiscus, Scarlet Rose Mallow, Halberd-leaved Hibiscus, Halberd-leaved Rose-mallow",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Hydrangea arborescens",
+        "Common Name": "Smooth Hydrangea, Wild Hydrangea, Sevenbark",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Hydrangea quercifolia",
+        "Common Name": "Oakleaf Hydrangea, Oak-leaf Hydrangea",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Hymenocallis occidentalis var. occidentalis",
+        "Common Name": "Northern Spiderlily, Carolina Spiderlily",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Hypericum hypericoides ssp. hypericoides",
+        "Common Name": "St. Andrew's-cross",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": ""
+    },
+    {
+        "Scientific Name": "Ilex decidua",
+        "Common Name": "Possumhaw, Possumhaw Holly, Deciduous Holly, Meadow Holly, Prairie Holly, Swamp Holly, Welk Holly, Deciduous Yaupon, Bearberry, Winterberry",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Ilex opaca",
+        "Common Name": "American Holly, White Holly, Prickly Holly, Evergreen Holly, Christmas Holly, Yule Holly",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Wet, Dry"
+    },
+    {
+        "Scientific Name": "Ilex vomitoria",
+        "Common Name": "Yaupon, Yaupon Holly, Cassina",
+        "Duration": "Perennial",
+        "Habit": "Shrub, Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Ipomopsis rubra",
+        "Common Name": "Standing Cypress, Texas Plume, Red Texas Star, Red Gilia",
+        "Duration": "Biennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Iris brevicaulis",
+        "Common Name": "Zigzag Iris",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Wet, Moist"
+    },
+    {
+        "Scientific Name": "Iris giganticaerulea",
+        "Common Name": "Giant Blue Iris, Blue Flag",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Iris virginica",
+        "Common Name": "Virginia Iris, Great Blue Flag, Southern Blue Flag",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Itea virginica",
+        "Common Name": "Virginia Sweetspire, Tassel-white, Virginia Willow",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Juglans nigra",
+        "Common Name": "Black Walnut, Eastern Black Walnut, American Black Walnut",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Juniperus virginiana",
+        "Common Name": "Eastern Red Cedar, Eastern Redcedar, Virginia Juniper, Red Juniper, Pencil Cedar, Carolina Cedar, Red Savin",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Kosteletzkya virginica",
+        "Common Name": "Virginia Saltmarsh Mallow, Virginia Fen-rose, Saltmarsh Mallow, Seashore Mallow",
+        "Duration": "Perennial",
+        "Habit": "Subshrub",
+        "Sun": "Sun",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Leucothoe axillaris",
+        "Common Name": "Coastal Doghobble, Coast Leucothoe",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Liatris elegans",
+        "Common Name": "Pink-scale Blazing Star, Pink-scale Gayfeather, Pink-scale Liatris",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Liatris pycnostachya",
+        "Common Name": "Prairie Blazing Star, Prairie Gayfeather, Prairie Liatris, Kansas Blazing Star, Kansas Gayfeather, Kansas Liatris, Cat-tail Blazing Star, Cat-tail Gayfeather, Cat-tail Liatris, Hairy Button-snakeroot",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Lindera benzoin",
+        "Common Name": "Northern Spicebush, Spicebush, Wild Allspice",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Wet, Moist, Dry"
+    },
+    {
+        "Scientific Name": "Liquidambar styraciflua",
+        "Common Name": "Sweetgum, American Sweetgum, Red Gum, White Gum, Star-leaved Gum, Starleaf Gum, Alligator Tree, Satin Walnut, Bilsted, Liquidambar",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Lobelia cardinalis",
+        "Common Name": "Cardinal Flower",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Wet, Moist"
+    },
+    {
+        "Scientific Name": "Lobelia siphilitica",
+        "Common Name": "Great Blue Lobelia",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Wet, Moist"
+    },
+    {
+        "Scientific Name": "Lonicera sempervirens",
+        "Common Name": "Coral Honeysuckle, Trumpet Honeysuckle, Woodbine",
+        "Duration": "Perennial",
+        "Habit": "Vine",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Magnolia grandiflora",
+        "Common Name": "Southern Magnolia, Evergreen Magnolia, Loblolly Magnolia, Great Laurel Magnolia, Big Laurel, Bull Bay",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Malus angustifolia",
+        "Common Name": "Southern Crabapple, Narrowleaf Crabapple, Wild Crabapple, Southern Crab, Narrowleaf Crab, Wild Crab",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Monarda citriodora",
+        "Common Name": "Lemon Beebalm, Purple Horsemint, Lemon Mint, Plains Horsemint, Lemon Horsemint, Horsemint, Purple Lemon Mint",
+        "Duration": "Annual",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Monarda fistulosa",
+        "Common Name": "Wild Bergamot, Beebalm",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Morella cerifera",
+        "Common Name": "Wax Myrtle , Southern Wax Myrtle, Southern Bayberry, Eastern Bayberry, Bayberry, Candleberry, Tallow Shrub",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Sun, Part-shade",
+        "Water": "Wet, Moist"
+    },
+    {
+        "Scientific Name": "Muhlenbergia reverchonii",
+        "Common Name": "Seep Muhly",
+        "Duration": "Perennial",
+        "Habit": "Grass/Grass-like",
+        "Sun": "Sun",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Oenothera rhombipetala",
+        "Common Name": "Fourpoint Evening-primrose, Four-point Evening Primrose, Diamond Petal Primrose, Greater Four-point Evening-primrose",
+        "Duration": "Annual",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Oenothera speciosa",
+        "Common Name": "Pink Evening Primrose, Showy Evening Primrose, Mexican Evening Primrose, Showy Primrose, Pink Ladies, Buttercups, Pink Buttercups",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Osmanthus americanus",
+        "Common Name": "American Olive, Devilwood, Wild Olive",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Osmunda regalis",
+        "Common Name": "Royal Fern",
+        "Duration": "Perennial",
+        "Habit": "Herb, Fern",
+        "Sun": "Shade, Part-shade",
+        "Water": "Wet, Moist"
+    },
+    {
+        "Scientific Name": "Ostrya virginiana",
+        "Common Name": "Eastern Hop-hornbeam, American Hop-hornbeam, Woolly Hop-hornbean, Eastern Ironwood, Roughbark Ironwood, Ironwood, Deerwood, Leverwood",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Oxydendrum arboreum",
+        "Common Name": "Sourwood, Sorrel Tree",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": ""
+    },
+    {
+        "Scientific Name": "Packera glabella",
+        "Common Name": "Butterweed, Cress-leaf Groundsel, Yellowtop",
+        "Duration": "Annual",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Panicum virgatum",
+        "Common Name": "Switchgrass, Wand Panic Grass",
+        "Duration": "Perennial",
+        "Habit": "Grass/Grass-like",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Parthenocissus quinquefolia",
+        "Common Name": "Virginia Creeper",
+        "Duration": "Perennial",
+        "Habit": "Vine",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Penstemon murrayanus",
+        "Common Name": "Scarlet Penstemon, Scarlet Beardtongue, Red Penstemon, Red Beardtongue, Cupleaf Penstemon, Cupleaf Beardtongue",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Phlox pilosa",
+        "Common Name": "Downy Phlox, Prairie Phlox, Fragrant Phlox",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Physostegia digitalis",
+        "Common Name": "Finger False Dragonhead, False Dragonhead",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": ""
+    },
+    {
+        "Scientific Name": "Physostegia pulchella",
+        "Common Name": "Showy False Dragonhead, Beautiful False Dragon-head",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Pinus echinata",
+        "Common Name": "Shortleaf Pine, Shortleaf Yellow Pine, Southern Yellow Pine, Yellow Pine, Shortstraw Pine, Arkansas Pine, Longtag Pine, Spruce Pine, Oldfield Pine, Arkansas Soft Pine",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Pinus elliottii",
+        "Common Name": "Slash Pine",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Pinus glabra",
+        "Common Name": "Spruce Pine",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Pinus taeda",
+        "Common Name": "Loblolly Pine, Oldfield Pine, Bull Pine, Rosemary Pine",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Platanus occidentalis",
+        "Common Name": "American Sycamore, Eastern Sycamore, American Plane Tree, Plane Tree, Buttonwood, Buttonball Tree",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Polystichum acrostichoides",
+        "Common Name": "Christmas Fern",
+        "Duration": "Perennial",
+        "Habit": "Fern",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Prunus angustifolia",
+        "Common Name": "Chickasaw Plum, Sandhill Plum",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Prunus caroliniana",
+        "Common Name": "Carolina Cherry-laurel, Cherry-laurel, Laurel Cherry, Carolina Laurel Cherry",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Prunus mexicana",
+        "Common Name": "Mexican Plum, Bigtree Plum, Inch Plum",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Prunus serotina",
+        "Common Name": "Black Cherry, Wild Black Cherry, Rum Cherry",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Quercus alba",
+        "Common Name": "White Oak, Northern White Oak, Eastern White Oak, Stave Oak, Ridge White Oak, Forked-leaf White Oak",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Quercus falcata",
+        "Common Name": "Southern Red Oak, Bottomland Red Oak, Three-lobed Red Oak, Spanish Oak",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Quercus nigra",
+        "Common Name": "Water Oak, Possum Oak, Duck Oak, Punk Oak, Spotted Oak",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Quercus phellos",
+        "Common Name": "Willow Oak, Swamp Willow Oak, Pin Oak, Peach Oak",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Quercus shumardii",
+        "Common Name": "Shumard Oak, Shumard's Oak, Shumard Red Oak, Southern Red Oak, Swamp Red Oak, Spotted Oak",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Quercus stellata",
+        "Common Name": "Post Oak, Iron Oak, Cross Oak",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Quercus virginiana",
+        "Common Name": "Coastal Live Oak, Southern Live Oak, Virginia Live Oak, Live Oak, Encino",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Ratibida columnifera",
+        "Common Name": "Mexican Hat, Red-spike Mexican Hat, Upright Prairie Coneflower, Prairie Coneflower, Long-headed Coneflower, Thimbleflower",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Rhododendron austrinum",
+        "Common Name": "Orange Azalea, Florida Azalea, Yellow Azalea",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Rhododendron canescens",
+        "Common Name": "Mountain Azalea, Wild Azalea, Honeysuckle Azalea, Piedmont Azalea, Sweet Azalea, Hoary Azalea, Southern Pinxterflower",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Rhus glabra",
+        "Common Name": "Smooth Sumac",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Robinia pseudoacacia",
+        "Common Name": "Black Locust",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Rudbeckia hirta",
+        "Common Name": "Black-eyed Susan, Common Black-eyed Susan, Brown-eyed Susan, Blackeyed Susan",
+        "Duration": "Annual, Biennial, Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Salix nigra",
+        "Common Name": "Black Willow, Gulf Black Willow, Swamp Willow, Sauz",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Wet, Moist"
+    },
+    {
+        "Scientific Name": "Salvia azurea",
+        "Common Name": "Pitcher Sage, Big Blue Sage, Azure Sage, Giant Blue Sage, Blue Sage",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Salvia lyrata",
+        "Common Name": "Lyreleaf Sage, Cancer Weed",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Sambucus nigra ssp. canadensis",
+        "Common Name": "Common Elderberry, Black Elder, Mexican Elderberry, Common Elder, Elderberry, Tapiro, Sauco",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Part-shade",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Sassafras albidum",
+        "Common Name": "Sassafras, White Sassafras, Ague Tree, Cinnamon Wood, Mitten Tree, Saloop, Smelling Stick",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Spartina patens",
+        "Common Name": "Saltmeadow Cordgrass, Salt-meadow Cordgrass, Marsh-hay Cordgrass",
+        "Duration": "Perennial",
+        "Habit": "Grass/Grass-like",
+        "Sun": "Sun",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Spigelia marilandica",
+        "Common Name": "Woodland Pinkroot, Pinkroot, Indian Pink",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Stewartia malacodendron",
+        "Common Name": "Silky Camellia, Virginia Stewartia, Round-fruited Stewartia",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Shade",
+        "Water": ""
+    },
+    {
+        "Scientific Name": "Stokesia laevis",
+        "Common Name": "Stokes Aster",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Symphoricarpos orbiculatus",
+        "Common Name": "Coralberry, Indian Currant, Buckbrush",
+        "Duration": "Perennial",
+        "Habit": "Shrub",
+        "Sun": "Shade, Part-shade",
+        "Water": "Moist, Dry"
+    },
+    {
+        "Scientific Name": "Taxodium distichum",
+        "Common Name": "Bald Cypress, Baldcypress, Common Bald Cypress, Southern Bald Cypress, Deciduous Cypress, Southern Cypress, Swamp Cypress, Red Cypress, White Cypress, Yellow Cypress, Gulf Cypress, Tidewater Red Cypress",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Trifolium reflexum",
+        "Common Name": "Buffalo Clover",
+        "Duration": "Annual",
+        "Habit": "Herb",
+        "Sun": "Sun",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Ulmus alata",
+        "Common Name": "Winged Elm, Wahoo Elm, Cork Elm, Witch Elm",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Ulmus americana",
+        "Common Name": "American Elm, White Elm, Soft Elm, Water Elm, Common Elm",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Sun, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Ulmus crassifolia",
+        "Common Name": "Cedar Elm, Fall Elm, Basket Elm, Scrub Elm, Lime Elm, Texas Elm, Southern Rock Elm, Olmo",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Vaccinium arboreum",
+        "Common Name": "Farkleberry, Tree Sparkleberry, Sparkleberry, Winter Huckleberry, Huckleberry",
+        "Duration": "Perennial",
+        "Habit": "Tree",
+        "Sun": "Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Vernonia gigantea ssp. gigantea",
+        "Common Name": "Giant Ironweed, Tall Ironweed",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Shade, Part-shade",
+        "Water": "Wet"
+    },
+    {
+        "Scientific Name": "Viola pedata",
+        "Common Name": "Birdfoot Violet, Bird's-foot Violet, Bird-foot Violet",
+        "Duration": "Perennial",
+        "Habit": "Herb",
+        "Sun": "Shade, Part-shade",
+        "Water": "Dry"
+    },
+    {
+        "Scientific Name": "Wisteria frutescens",
+        "Common Name": "American Wisteria, Texas Wisteria, Kentucky Wisteria",
+        "Duration": "Perennial",
+        "Habit": "Vine",
+        "Sun": "Sun, Shade, Part-shade",
+        "Water": "Moist"
+    },
+    {
+        "Scientific Name": "Woodwardia areolata",
+        "Common Name": "Netted Chainfern, Chain Fern, Netted Chain Fern",
+        "Duration": "Perennial",
+        "Habit": "Fern",
+        "Sun": "Shade, Part-shade",
+        "Water": "Wet, Moist"
+    },
+    {
+        "Scientific Name": "Yucca aloifolia",
+        "Common Name": "Spanish Dagger, Spanish Bayonet, Aloe Yucca",
+        "Duration": "Perennial",
+        "Habit": "Cactus/Succulent",
+        "Sun": "Sun",
+        "Water": "Dry"
+    }
+]
