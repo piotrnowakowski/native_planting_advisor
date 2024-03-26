@@ -2,12 +2,15 @@
 from flask import Flask, jsonify, render_template, request
 from flask_session import Session  # This is for server-side session management
 from flask import redirect
+import flask
+from pathlib import Path
 from datetime import datetime
 import json
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 from dotenv import load_dotenv
 import os
-import flask
+import pandas as pd
+
 from langchain.chains import LLMChain
 from langchain_community.tools import DuckDuckGoSearchRun
 from langchain.agents import AgentType, initialize_agent, Tool, ZeroShotAgent, AgentExecutor
@@ -66,25 +69,61 @@ def get_llm(user_data, plant_list):
         suffix=suffix,
         input_variables=["input", "chat_history", "agent_scratchpad"],
     )
-    memory = ConversationBufferMemory(memory_key="chat_history")
+    if 'conversation.history' in flask.session:
+        conversation_history = flask.session['conversation.history']
+        memory = ConversationBufferMemory(memory_key="chat_history")
+        memory.chat_memory.add_ai_message(str(message))
+        for message in conversation_history:
+            if message['role'] == 'user':
+                memory.chat_memory.add_ai_message(str(message))
+            elif message['role'] == 'assistant':
+                memory.chat_memory.add_human_message(str(message))
+    else:
+        memory = ConversationBufferMemory(memory_key="chat_history")
     llm = OpenAI(api_key=API_KEY)
     llm_chain = LLMChain(llm=llm, prompt=prompt)
     agent = ZeroShotAgent(llm_chain=llm_chain, tools=tools, verbose=True)
     agent_chain = AgentExecutor.from_agent_and_tools(
         agent=agent, tools=tools, verbose=True, memory=memory, handle_parsing_errors=True
     )
-    flask.session['agent_chain'] = agent_chain
+
+    flask.session['agent_chain'] = agent_chain.to_json()
     return agent_chain
+
+def get_relevant_plants(user_data):
+    if not user_data:
+        return []
+    filters = {
+        'State Code': user_data.get('location'),
+        'Garden Size': user_data.get('gardenSize'),
+        'Shade': user_data.get('shade'),
+        'Soil Type': user_data.get('soilType'),
+        'Water': user_data.get('water')
+    }
+    df = pd.read_csv('whole_data.csv')
+    filtered_df = df.copy()
+    for column, value in filters.items():
+        if column in filtered_df.columns and value:
+            if column == 'Existing Plants' and value:  # Assuming list for existing plants
+                filtered_df = filtered_df[~filtered_df['Scientific Name'].isin(value)]
+            else:
+                filtered_df = filtered_df[filtered_df[column] == value]
+    plant_names = filtered_df['Scientific Name'].tolist()
+    return plant_names
+    
 
 @app.route("/get")
 def get_bot_response():
     user_text = request.args.get('msg')
     # Get a response from your LLM or simulation
     if 'agent_chain' not in flask.session:
-        # Initialize the LLM chain if it doesn't exist in the session
-        # Assuming 'user_data' and 'plant_list' are available or you fetch them accordingly
-        user_data = {}  # Fetch or define user_data
-        plant_list = []  # Fetch or define plant_list
+        try:
+            with open('answers.json') as f:
+                user_data = json.load(f)
+        except FileNotFoundError:
+            user_data = {}
+        
+        plant_list = get_relevant_plants(user_data)  
         flask.session['agent_chain'] = get_llm(user_data, plant_list)
     agent_chain = flask.session['agent_chain']
     llm_response = get_llm_response(user_text, agent_chain)
