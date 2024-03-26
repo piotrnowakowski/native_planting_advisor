@@ -1,39 +1,48 @@
+/* General styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f7f7f7; /* Light grey background for a subtle, natural feel */
-    color: #333; /* Darker text for contrast */
+    background-color: var(--background-color, #f0f8f7); /* Lighter, dew-inspired background */
+    color: var(--text-color, #354f52); /* Updated text color for better readability */
 }
 
+/* Container for content */
 .container {
     max-width: 800px;
     margin: auto;
-    background-color: white;
+    background-color: var(--container-bg-color, white);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Unchanged, provides depth */
 }
 
-h2 {
-    color: #2e7d32; /* Dark green for titles */
+/* Header styling */
+h1, h2 {
+    color: var(--accent-color, #2e7d32); /* Unified vibrant green for headers */
+    text-align: center; /* Centered headers for focus */
 }
 
+/* Paragraph styling */
 p {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Spacing for readability, unchanged */
+    line-height: 1.6; /* Improved line spacing for easier reading */
 }
 
+/* Form styling */
 form {
-    background-color: #e8f5e9; /* Soft green background for form area */
+    background-color: var(--form-background-color, #e8f5e9); /* Soft green, unchanged */
     padding: 20px;
     border-radius: 8px;
 }
 
+/* Label styling */
 label {
     display: block;
     margin: 10px 0 5px;
 }
 
+/* Input and select styling */
 input[type="text"], select, .radio-options input, .radio-options label {
     margin-bottom: 10px;
 }
@@ -43,10 +52,11 @@ input[type="text"], select {
     padding: 8px;
     margin-top: 5px;
     border-radius: 4px;
-    border: 1px solid #ccc; /* Subtle border */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid var(--input-border-color, #ccd); /* Softened border color */
+    box-sizing: border-box;
 }
 
+/* Radio button styling */
 .radio-options label {
     display: inline-block;
     margin-right: 20px;
@@ -57,9 +67,10 @@ input[type="radio"] {
     margin-right: 5px;
 }
 
+/* Button styling */
 button {
     display: block;
-    background-color: #4CAF50; /* Green background for the button */
+    background-color: var(--accent-color, #4CAF50); /* Primary action color */
     color: white;
     padding: 10px 15px;
     border: none;
@@ -71,16 +82,17 @@ button {
 }
 
 button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: var(--button-hover-color, #45a049); /* Darker on hover for feedback */
 }
 
+/* List styling */
 ul {
-    list-style-type: none; /* Remove default list styling */
+    list-style-type: none; /* Cleaner look without bullets */
     padding: 0;
 }
 
 ul li {
-    background-color: #e0f2f1; /* Very light green for list items */
+    background-color: var(--list-item-bg-color, #e0f2f1); /* Light green for list items */
     margin-top: 5px;
     padding: 5px;
     border-radius: 3px;

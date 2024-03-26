@@ -1,10 +1,8 @@
 {
-    "location": "CA",
-    "gardenSize": "large",
-    "existingPlants": [
-        "meee"
-    ],
-    "shade": "sunny",
-    "soilType": "sandy",
-    "water": "smallNatural"
+    "location": "AL",
+    "gardenSize": null,
+    "existingPlants": [],
+    "shade": "semiShade",
+    "soilType": null,
+    "water": null
 }
