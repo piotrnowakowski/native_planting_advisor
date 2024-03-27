@@ -43,27 +43,23 @@ Navigate to http://127.0.0.1:5000/ in your web browser to access the application
 Fill out the garden form with your garden's details.
 Engage with the chatbot to refine your plant selections based on the chatbot's recommendations.
 
-Web Scraping
+##Web Scraping
 This project employs web scraping to aggregate a comprehensive dataset of native plants. The scraping script navigates through a specified list of states, collecting data on plant names, characteristics, and environmental requirements.
 
 Running the Scraper
-bash
-Copy code
-python scraping.py
+```
+cd scraping
+python sel_ver.py
+```
 Ensure you have a compatible WebDriver installed for Selenium to function correctly.
 
-Technology Stack
+##Technology Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Flask (Python), Selenium (for web scraping)
 Data Storage: Pandas DataFrame, JSON files
 NLP & Chatbot: OpenAI's GPT models, LangChain
-Contributing
-We welcome contributions to the Native Garden Assistant! Please feel free to submit pull requests, report bugs, or suggest features.
 
-License
-Distributed under the MIT License. See LICENSE for more information.
-
-Acknowledgments
+##Acknowledgments
 OpenAI for the GPT model used in the chatbot.
 Flask for the web framework.
 Selenium for the web scraping toolset.
