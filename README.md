@@ -53,13 +53,13 @@ python sel_ver.py
 ```
 Ensure you have a compatible WebDriver installed for Selenium to function correctly.
 
-##Technology Stack
+## Technology Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Flask (Python), Selenium (for web scraping)
 Data Storage: Pandas DataFrame, JSON files
 NLP & Chatbot: OpenAI's GPT models, LangChain
 
-##Acknowledgments
+## Acknowledgments
 OpenAI for the GPT model used in the chatbot.
 Flask for the web framework.
 Selenium for the web scraping toolset.
