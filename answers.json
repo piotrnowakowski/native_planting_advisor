@@ -1,8 +1,1 @@
-{
-    "location": "AL",
-    "gardenSize": null,
-    "existingPlants": [],
-    "shade": "semiShade",
-    "soilType": null,
-    "water": null
-}
+{"location": "CA", "gardenSize": "large", "existingPlants": [""], "shade": "sun", "soilType": "sandy", "water": "Wet"}

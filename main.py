@@ -25,7 +25,7 @@ API_KEY = os.getenv("API_KEY")
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY')
 app.config['SESSION_TYPE'] = 'filesystem'  # Use server-side session management
 Session(app) 
-
+AGENT_CHAIN = None
 
 @app.route("/chatbot")
 def home():
@@ -38,6 +38,7 @@ def get_llm_response(user_text, chain):
     return text
 
 def get_llm(user_data, plant_list):
+    global AGENT_CHAIN
     search = DuckDuckGoSearchRun()
     tools = [
         Tool(
@@ -48,13 +49,12 @@ def get_llm(user_data, plant_list):
     ]    
     # Convert the dictionary to a JSON string and format it for readability
     user_data_str = '\n'.join(f"{key}: {value}" for key, value in user_data.items())
-
-
     # Join the list elements into a single string
     plant_list_str = ", ".join(plant_list)
     prefix = f"""Have a conversation with a human, answering the questions about native gardening best You can. You will get all the user data gathered in conversation.
     Your objective is to help the user choose the best plants for their garden from the list provided here. Answer question and search for the answers. Recommend only the plants from the provided list.
-    Take it into account when answering questions. Return as much data about the plants user can choose from as possible 
+    Take it into account when answering questions. Return as much data about the plants user can choose from as possible. 
+    The outcome of the conversation should be a list of plants that are best suited for the user's and he choosed them from the list provided.
     Possible plants: {plant_list_str}
     User garden: {user_data_str}
     You have access to the following tools:"""
@@ -83,40 +83,53 @@ def get_llm(user_data, plant_list):
     llm = OpenAI(api_key=API_KEY)
     llm_chain = LLMChain(llm=llm, prompt=prompt)
     agent = ZeroShotAgent(llm_chain=llm_chain, tools=tools, verbose=True)
-    agent_chain = AgentExecutor.from_agent_and_tools(
+    AGENT_CHAIN = AgentExecutor.from_agent_and_tools(
         agent=agent, tools=tools, verbose=True, memory=memory, handle_parsing_errors=True
     )
 
-    flask.session['agent_chain'] = agent_chain.to_json()
-    return agent_chain
+    flask.session['agent_chain'] = AGENT_CHAIN.to_json()
+    return AGENT_CHAIN
 
-def get_relevant_plants(user_data):
-    if not user_data:
-        return []
+def get_relevant_plants(user_data):If
+    # Assuming 'user_data' may include a 'state' key for filtering by state code
+    state_code = user_data.get('location') if user_data else None
+    df = pd.read_csv('whole_data.csv')
+
+    filtered_df = df.copy()
+
+    if state_code:
+        filtered_df = filtered_df[filtered_df['State Code'] == state_code]
     filters = {
         'State Code': user_data.get('location'),
-        'Garden Size': user_data.get('gardenSize'),
         'Shade': user_data.get('shade'),
-        'Soil Type': user_data.get('soilType'),
         'Water': user_data.get('water')
     }
-    df = pd.read_csv('whole_data.csv')
-    filtered_df = df.copy()
-    for column, value in filters.items():
-        if column in filtered_df.columns and value:
-            if column == 'Existing Plants' and value:  # Assuming list for existing plants
-                filtered_df = filtered_df[~filtered_df['Scientific Name'].isin(value)]
-            else:
-                filtered_df = filtered_df[filtered_df[column] == value]
-    plant_names = filtered_df['Scientific Name'].tolist()
-    return plant_names
+    # Proceed with other filters if the dataframe is not empty
+    if not filtered_df.empty:
+        for column, value in filters.items():
+            if column in filtered_df.columns and value:
+                # Special handling for "Sun" column to match any part of the value
+                if column == 'Sun':
+                    pattern = '|'.join(value)  # Create a regex pattern to match any of the values
+                    filtered_df = filtered_df[filtered_df[column].str.contains(pattern, na=False)]
+                else:  # Direct matching for other columns
+                    filtered_df = filtered_df[filtered_df[column] == value]
+
+    # Check if the filtered dataframe is not empty
+    if not filtered_df.empty:
+        plant_names = filtered_df['Scientific Name'].tolist()
+        return plant_names
+    else:
+        # If filtering by state code already resulted in an empty df, return empty list
+        return []
     
 
 @app.route("/get")
 def get_bot_response():
+    global AGENT_CHAIN
     user_text = request.args.get('msg')
     # Get a response from your LLM or simulation
-    if 'agent_chain' not in flask.session:
+    if not AGENT_CHAIN:
         try:
             with open('answers.json') as f:
                 user_data = json.load(f)
@@ -124,9 +137,8 @@ def get_bot_response():
             user_data = {}
         
         plant_list = get_relevant_plants(user_data)  
-        flask.session['agent_chain'] = get_llm(user_data, plant_list)
-    agent_chain = flask.session['agent_chain']
-    llm_response = get_llm_response(user_text, agent_chain)
+        AGENT_CHAIN = get_llm(user_data, plant_list)
+    llm_response = get_llm_response(user_text, AGENT_CHAIN)
     return jsonify({"text":llm_response})
 
 @app.route("/")
@@ -148,7 +160,12 @@ def submit_form():
         'soilType': request.form.get('soilType'),
         'water': request.form.get('water')
     }
+    # Save form data to answers.json
+    if os.path.exists('answers.json'):
+        os.remove('answers.json')
 
+    with open('answers.json', 'w') as f:
+        json.dump(form_data, f)
     return redirect('/chatbot')
 
 app.run(debug = True)
