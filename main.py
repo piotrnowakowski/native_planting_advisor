@@ -90,7 +90,7 @@ def get_llm(user_data, plant_list):
     flask.session['agent_chain'] = AGENT_CHAIN.to_json()
     return AGENT_CHAIN
 
-def get_relevant_plants(user_data):If
+def get_relevant_plants(user_data):
     # Assuming 'user_data' may include a 'state' key for filtering by state code
     state_code = user_data.get('location') if user_data else None
     df = pd.read_csv('whole_data.csv')

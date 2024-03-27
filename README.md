@@ -6,9 +6,8 @@ The Native Garden Assistant is a comprehensive web application designed to help 
 ## Features
 
 - **User Garden Form**: Collects user preferences and garden conditions through a simple form.
-- **Dynamic Plant Recommendations**: Offers plant recommendations tailored to the user's specific garden conditions, such as location, soil type, and sunlight exposure.
 - **Chatbot Interaction**: Engages users in a conversational interface, allowing for detailed queries and recommendations.
-- **Data-driven Insights**: Utilizes a rich dataset of plants, scraped from reputable sources, ensuring accurate and relevant recommendations.
+- **Data-driven Insights**: Utilizes dataset of plants, scraped from reputable sources, ensuring accurate and relevant recommendations.
 
 ## Getting Started
 
