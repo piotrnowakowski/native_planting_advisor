@@ -43,7 +43,7 @@ Navigate to http://127.0.0.1:5000/ in your web browser to access the application
 Fill out the garden form with your garden's details.
 Engage with the chatbot to refine your plant selections based on the chatbot's recommendations.
 
-##Web Scraping
+## Web Scraping
 This project employs web scraping to aggregate a comprehensive dataset of native plants. The scraping script navigates through a specified list of states, collecting data on plant names, characteristics, and environmental requirements.
 
 Running the Scraper
