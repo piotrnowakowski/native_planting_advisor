@@ -26,7 +26,7 @@ for state_name in state_codes:
 
     # Wait for JavaScript to render the content, adjust the sleep time as necessary
     random_sleep = random.randint(5, 10)
-    time.sleep(90 +random_sleep)  # Adjust this sleep time based on your internet speed and page complexity
+    time.sleep(20 +random_sleep)  # Adjust this sleep time based on your internet speed and page complexity
     
     # Now you can use BeautifulSoup to parse the page source
     soup = BeautifulSoup(driver.page_source, 'html.parser')
