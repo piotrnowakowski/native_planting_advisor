@@ -11,11 +11,14 @@ from dotenv import load_dotenv
 import os
 import pandas as pd
 
+from langchain import hub
 from langchain.chains import LLMChain
 from langchain_community.tools import DuckDuckGoSearchRun
-from langchain.agents import AgentType, initialize_agent, Tool, ZeroShotAgent, AgentExecutor
+from langchain.agents import AgentType, initialize_agent, Tool, ZeroShotAgent, AgentExecutor, create_openai_functions_agent
 from langchain.memory import ConversationBufferMemory
-from langchain_openai import OpenAI
+from langchain_openai import OpenAI, ChatOpenAI
+from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
+
 
 GPT_MODEL = "gpt-3.5-turbo-0613"
 # Load environment variables from .env file
@@ -47,7 +50,9 @@ def get_llm(user_data, plant_list):
             description="Use when You want to search information for the plants for the user.",
         )
     ]    
-    # Convert the dictionary to a JSON string and format it for readability
+    #Convert the dictionary to a JSON string and format it for readability
+    #tools = [TavilySearchResults(max_results=3)]
+    
     user_data_str = '\n'.join(f"{key}: {value}" for key, value in user_data.items())
     # Join the list elements into a single string
     plant_list_str = ", ".join(plant_list)
@@ -62,13 +67,25 @@ def get_llm(user_data, plant_list):
     {chat_history}
     Question: {input}
     {agent_scratchpad}"""
+    prefix = prefix + "\n{agent_scratchpad}"
 
-    prompt = ZeroShotAgent.create_prompt(
-        tools,
-        prefix=prefix,
-        suffix=suffix,
-        input_variables=["input", "chat_history", "agent_scratchpad"],
-    )
+    # prompt = ZeroShotAgent.create_prompt(
+    #     tools,
+    #     prefix=prefix,
+    #     suffix=suffix,
+    #     input_variables=["input", "chat_history", "agent_scratchpad"],
+    # )
+
+    prompt = hub.pull("hwchase17/openai-tools-agent")
+    #prompt.set_input_variables(input=prefix, chat_history="", agent_scratchpad="")
+    prompt = prompt.partial(instructions=prefix)
+    
+    # prompt = ChatPromptTemplate.from_messages([
+    #     ("system", prefix),
+    #     ("user", "{input}"),
+    #     MessagesPlaceholder(variable_name="agent_scratchpad")
+    # ])
+
     if 'conversation.history' in flask.session:
         conversation_history = flask.session['conversation.history']
         memory = ConversationBufferMemory(memory_key="chat_history")
@@ -80,9 +97,13 @@ def get_llm(user_data, plant_list):
                 memory.chat_memory.add_human_message(str(message))
     else:
         memory = ConversationBufferMemory(memory_key="chat_history")
-    llm = OpenAI(api_key=API_KEY)
-    llm_chain = LLMChain(llm=llm, prompt=prompt)
-    agent = ZeroShotAgent(llm_chain=llm_chain, tools=tools, verbose=True)
+    llm = ChatOpenAI(model="gpt-3.5-turbo-1106", temperature=0, api_key=API_KEY)
+    #llm = OpenAI(api_key=API_KEY)
+    
+    #llm_chain = LLMChain(llm=llm, prompt=prompt)
+    #agent = ZeroShotAgent(llm_chain=llm_chain, tools=tools, verbose=True)
+    agent = create_openai_functions_agent(llm, tools, prompt)
+    
     AGENT_CHAIN = AgentExecutor.from_agent_and_tools(
         agent=agent, tools=tools, verbose=True, memory=memory, handle_parsing_errors=True
     )
@@ -122,6 +143,16 @@ def get_relevant_plants(user_data):
     else:
         # If filtering by state code already resulted in an empty df, return empty list
         return []
+    
+
+def conversation_summary():
+    global AGENT_CHAIN
+
+    memory = AGENT_CHAIN.memory.chat_memort.get()
+    llm = ChatOpenAI(model="gpt-3.5-turbo-1106", temperature=0, api_key=API_KEY)
+    prompt = ChatPromptTemplate( """Based on the conversation history please make a list of plants with their distinctive features that user choose in this conversation""" + str(''.join(memory)))
+    answer = llm.invoke(prompt)
+    return answer.content
     
 
 @app.route("/get")
